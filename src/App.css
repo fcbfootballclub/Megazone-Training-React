@@ -1,0 +1,95 @@
+.search {
+  max-width: 450px;
+}
+
+.edit-row td input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-control {
+  display: inline-block !important;
+  max-width: 150px !important;
+}
+
+.add-component {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.add-component input {
+  margin-right: 5px;
+}
+
+.add-component button {
+  margin-top: 5px;
+}
+
+.page-header {
+  /* border: 1px solid red; */
+  padding: 10px 0px;
+}
+
+.page-header-left {
+  flex: 1 0 30%;
+}
+.page-header-right {
+  flex: 1 0 70%;
+}
+
+
+/* sort css */
+.sort {
+  display: inline-block !important;
+  max-width: 160px !important;
+}
+
+/* import-export button css */
+.export-button {
+  margin-left: 1rem;
+}
+.export-button a{
+  color: white;
+  text-decoration: none;
+}
+
+/* form select custom */
+.form-select-custom {
+  margin-top: 1rem;
+  padding: auto;
+  max-width: 70px !important;
+}
+
+/* pagination */
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.pagination .page-num a{
+  text-decoration: none;
+}
+
+.pagination .page-num:hover{
+  background-color:aquamarine;
+}
+
+.pagination .active {
+  background-color:aquamarine;
+}
+
+
